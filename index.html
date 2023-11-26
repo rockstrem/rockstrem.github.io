@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header" >
+        <nav id="navbar">
+
+        </nav>
+        <h1 class="titulo" id="titulo">Formulario de registro</h1>
+        <img id="imagen" src="https://seeklogo.com/images/S/spider-man-comic-new-logo-322E9DE914-seeklogo.com.png" alt="logo de spiderman">
+    </header>
+    <hr>
+    <main id="main">
+    <form action="" id="registro">
+        <div class="form-control" >
+            <label for="Nombre">Nombre</label>
+            <input id="Nombre" name="Nombre" type="text" required>
+        </div>
+        <div class="form-control" >
+            <label for="Apellido">Apellido</label>
+            <input id="Apellido" name="Apellido" type="text"required>
+        </div>
+        <div class="form-control" >
+            <label for="age"></label>
+            <input id="age" name="age" type="number" placeholder="(opcional)">
+        </div>
+        <div class="form-control" >
+            <label for="mail">Email</label>
+            <input id="mail" name="mail" type="email"required>
+        </div>
+        <div class="form-control" >
+            <label for="pass">contraseña</label>
+            <input  id="pass" name="pass" type="password"required>
+        </div>
+        <div class="form-control" >
+            <label for=" confirmar-pass"> confirmar contraseña</label>
+            <input  id="confirmar-pass" name="confirmar-pass" type="password"required>
+        </div>
+    
+        <div class="form-control" >
+            <label for="Descripcion">Descripcion</label>
+            <textarea name="Descripcion" id="Descripcion" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-control">
+            <select class="lenguaje" name="lenguaje" id="lenguaje">
+                <option class="lenguaje" value="">Elija su lenguaje</option>
+                <option class="lenguaje" value="spanish">Español</option>
+                <option  class="lenguaje" value="english">Ingles</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label  for="idiomas">que idiomas hablas</label>
+            <div>
+                <label  for="idiomas">Español</label>
+                <input type="checkbox" name="idiomas" id="idiomas">
+            </div>
+            <div>
+                <label  for="idiomas">Ingles</label>
+                <input type="checkbox" name="idiomas" id="idiomas">
+            </div>
+            <div>
+                <label  for="idiomas">chino</label>
+                <input type="checkbox" name="idiomas" id="idiomas">
+            </div>
+    
+        </div>
+        <div class="form-control">
+            <label for="mother-tongue">cual es yu lenguaje materno</label>
+            <div>
+                <label for="mother-tongue">Español</label>
+                <input type="radio" name="mother-tongue" id="mother-tongue">
+            </div>
+            <div>
+                <label for="mother-tongue">Ingles</label>
+                <input type="radio" name="mother-tongue" id="mother-tongue">
+            </div>
+            <div>
+                <label for="mother-tongue">chino</label>
+                <input type="radio" name="mother-tongue" id="mother-tongue">
+            </div>
+    
+        </div>
+        <div class="form-control">
+        <input  class="btn" type="submit" value="Enviar">
+    </div>
+     </form>
+</main>
+<hr>
+<footer id="footer">
+    <h2 id="gracias">Gracias por completar el Formulario</h2>
+    <a  href="SEGUNDA PAGINA.HTML">Inicio</a>
+
+</footer>
+</body>
+</html>
